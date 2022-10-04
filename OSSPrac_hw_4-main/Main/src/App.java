@@ -15,6 +15,9 @@ public class App {
 
     System.out.print("학교를 입력하세요:");
     String school = sc.next();
+
+    System.out.print("학년을 입력하세요:");
+    int grade = sc.nextInt();
     
     System.out.println("");
     System.out.println("<출력>");
@@ -22,6 +25,7 @@ public class App {
     System.out.println("학번:"+num);
     System.out.println("학과:"+major);
     System.out.println("학교:"+school);
+    System.out.println("학년:"+grade);
     
 
     sc.close();
